@@ -1,0 +1,38 @@
+<svg width="200" height="200" viewBox="15 15 175 175" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .shape { 
+      fill: #E94E3A; /* Vibrant, yet modern red-orange */
+      stroke: #5D2D38; /* Deep, subdued burgundy for contrast */
+      stroke-width: 2;
+    }
+    .circle {
+      fill: #161616; /* Dark gray background */
+      stroke: #393939; /* Subtle border */
+      stroke-width: 3;
+    }
+    .text {
+      font-family: 'Roboto', sans-serif, monospace;
+      font-size: 0.875rem;
+      white-space: pre;
+      font-weight: 1000;
+      fill: #DDE1E6; /* Light gray text */
+      text-anchor: middle;
+      letter-spacing: 2px; /* Added spacing between letters */
+    }
+  </style>
+
+  <!-- Background circle -->
+  <circle class="circle" cx="100" cy="100" r="80" />
+
+  <!-- Left '\' -->
+  <path class="shape" d="M45 60 L59 60 L90 140 L76 140 Z" />
+
+  <!-- Central 'V' -->
+  <path class="shape" d="M70 60 L100 140 L130 60 L116 60 L100 110 L84 60 Z" />
+
+  <!-- Right '/' (split into two) -->
+  <path class="shape" d="M141 60 L155 60 L137 105 L123 105 Z" />
+  <path class="shape" d="M120 115 L133 115 L123 140 L110 140 Z" />
+
+  <!--text class="text" x="100" y="160">VULKAN</text-->
+</svg>
