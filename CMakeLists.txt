@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.26)
 project(Vulkano
-        VERSION 0.0.1
+        VERSION 0.0.2
         DESCRIPTION "An educational Vulkan library"
         LANGUAGES CXX
 )
@@ -38,6 +38,11 @@ list(APPEND VULKANO_LIBRARIES)
 
 include(cmake/external/glfw.cmake)
 include(cmake/external/vulkan-headers.cmake)
+include(cmake/external/VulkanMemoryAllocator.cmake)
+include(cmake/external/assimp.cmake)
+include(cmake/external/stb.cmake)
+include(cmake/external/cglm.cmake)
+include(cmake/external/spdlog.cmake)
 
 # --------------------------------------------------------------------
 # Output Directories
